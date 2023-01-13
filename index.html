@@ -90,11 +90,11 @@
     }
 
     function resolvePath(path) {
-      return ('assets/').concat(path);
+      return ('/').concat(path);
     }
 
     function resolveFontPath(font) {
-      return ('lib/fonts/').concat(font.key.split('/').reverse()[0]);
+      return ('/').concat(font.key.split('/').reverse()[0]);
     }
 
     root.Runtime = {
